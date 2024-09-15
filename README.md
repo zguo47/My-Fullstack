@@ -12,3 +12,7 @@ To run this project locally, run the following:
    ```bash
    cd football-standings
 
+## Acknowledgements
+ESPN: This project utilizes data provided by the ESPN API. Special thanks to ESPN for making their football standings data accessible for development purposes.
+API Provider: We acknowledge the support of the API service that powers the data retrieval for this application.
+
