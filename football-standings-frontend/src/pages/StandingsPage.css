@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Tint&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.standingspage {
+    padding: 40px;
+}
+
+.back-button {
+    font-family: "Kanit", sans-serif;
+    background-color: #cb0216;
+    color: #ffffff;
+    padding: 8px 12px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.back-button:hover {
+    background-color: #ad0011;
+}
+
+.standings-title {
+    font-family: "Bungee Tint", sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.standings-table {
+    font-family: "Kanit", sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 500px;
+    margin: 0 30 30px;
+    font-size: 1.8em;
+}
+
+.standings-table th,
+.standings-table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.standings-table thead {
+    background-color: #f2f2f2;
+}
+
+
+.standings-table tr:hover {
+    background-color: #ffffff;
+}
+
+.standings-table th {
+    background-color: #ad0011;
+    color: white;
+}
+
+.standings-table td:nth-child(2),
+.standings-table th:nth-child(2) {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.team-cell {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.team-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+}
+
+.group-label td {
+    background-color: #cccccc;
+    font-weight: bold;
+    text-align: left;
+    font-size: 0.5em;
+    padding: 2px;
+}
+
+/* Specific styles for each group label */
+.group-label.champions-league-label td {
+    background-color: #25ba48;
+    /* Green */
+    color: #fff;
+}
+
+.group-label.europa-league-label td {
+    background-color: #ffc107;
+    /* Yellow */
+    color: #000;
+}
+
+.group-label.uefa-cup-label td {
+    background-color: #ffc107;
+    /* Yellow */
+    color: #000;
+}
+
+.group-label.europa-conference-league-label td {
+    background-color: #1d86dc;
+    /* Light blue */
+}
+
+.group-label.europa-conference-league-qualifying-label td {
+    background-color: #1dd6e0;
+    /* Light blue */
+}
+
+.group-label.conference-league-qualifying-label td {
+    background-color: #1dd6e0;
+    /* Light blue */
+}
+
+.group-label.relegation-label td {
+    background-color: #dc3545;
+    /* Red */
+    color: #fff;
+}
+
+.group-label.relegated-label td {
+    background-color: #dc3545;
+    /* Red */
+    color: #fff;
+}
+
+.group-label.champions-league-qualifying-label td {
+    background-color: #56bd30;
+    /* Green */
+    color: #fff;
+}
+
+.group-label.europa-league-qualifying-label td {
+    background-color: #ffff07;
+    /* Yellow */
+    color: #000;
+}
+
+.group-label.relegation-via-playoff-label td {
+    background-color: #dc3580;
+    /* Red */
+    color: #fff;
+}
+
+.group-label.relegation-via-playoffs-label td {
+    background-color: #dc3580;
+    /* Red */
+    color: #fff;
+}
+
+.group-label.relegation-playoff-label td {
+    background-color: #dc3580;
+    /* Red */
+    color: #fff;
+}
+
+.champions-league {
+    background-color: #cdf4dc;
+    /* Light green */
+}
+
+.champions-league- {
+    background-color: #cdf4dc;
+    /* Light green */
+}
+
+.champions-league-qualifying {
+    background-color: #dcefd4;
+    /* Light green */
+}
+
+.europa-league {
+    background-color: #FCF3CF;
+    /* Light yellow */
+}
+
+.uefa-cup {
+    background-color: #FCF3CF;
+    /* Light yellow */
+}
+
+.europa-league-qualifying {
+    background-color: #fcfccf;
+    /* Light yellow */
+}
+
+.europa-conference-league {
+    background-color: #cfe8fc;
+    /* Light blue */
+}
+
+.europa-conference-league-qualifying {
+    background-color: #cffafc;
+    /* Light blue */
+}
+
+.conference-league-qualifying {
+    background-color: #cffafc;
+    /* Light blue */
+}
+
+.relegation-via-playoffs {
+    background-color: #f5b1ba;
+    /* Light red */
+}
+
+.relegation-via-playoff {
+    background-color: #f5b1ba;
+    /* Light red */
+}
+
+.relegation-playoff {
+    background-color: #f5b1ba;
+    /* Light red */
+}
+
+.relegation {
+    background-color: #F5B7B1;
+    /* Light red */
+}
+
+.relegated {
+    background-color: #F5B7B1;
+    /* Light red */
+}
+
+@media (max-width: 600px) {
+    .team-logo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .team-cell {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
