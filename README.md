@@ -12,11 +12,11 @@ To run this project locally, run the following:
    ```bash
    cd football-standings
    cd football-standings-backend
-   npm install express axios cors /* install dependencies. skip this after already installed */
+   npm install express axios cors // install dependencies. skip this after already installed
    node app.js
    cd ../
    cd football-standings-frontend
-   npm install axios react-router-dom /* install dependencies. skip this after already installed */
+   npm install axios react-router-dom  // install dependencies. skip this after already installed
    npm start
 ```
 Open your web browser and go to http://localhost:3000 to view the application.
