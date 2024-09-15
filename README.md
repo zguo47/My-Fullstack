@@ -22,6 +22,6 @@ To run this project locally, run the following:
 Open your web browser and go to http://localhost:3000 to view the application.
 
 ## Acknowledgements
-API Provider: Thanks to [Azhari](https://github.com/azharimm) for the [Football Standings API](https://github.com/azharimm/football-standings-api.git) that powers the data retrieval for this application.
-ESPN: This project utilizes data originally provided by the ESPN website. Special thanks to ESPN for making their football standings data accessible for development purposes.
+**API Author:** Thanks to [Azhari](https://github.com/azharimm) for the [Football Standings API](https://github.com/azharimm/football-standings-api.git) that powers the data retrieval for this application.
+**ESPN:** This project utilizes data originally provided by the ESPN website. Special thanks to ESPN for making their football standings data accessible for development purposes.
 
