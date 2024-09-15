@@ -6,9 +6,9 @@
 
 ## Usage
 
-To run this project locally, follow these steps:
+To run this project locally, run the following:
 
-1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/football-standings.git
+   cd football-standings
+
